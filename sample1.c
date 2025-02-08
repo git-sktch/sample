@@ -1,7 +1,14 @@
 #include<stdio.h>
-int main(){
+int sub()
+{
     int a=6,b=3,c;
     c=a-b;
     printf("%d",c);
-    return 0;
+    
 }
+int main()
+{
+    Printf("sample");
+    sub();
+    return 0;
+    }
