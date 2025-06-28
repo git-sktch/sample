@@ -13,4 +13,23 @@ PS C:\Users\Student\Desktop\login> git clone https://github.com/git-sktch/web1.g
 #remote: Counting objects: 100% (3/3), done.
 #remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 #Receiving objects: 100% (3/3), done.
-   
+PS C:\Users\Student\Desktop\login> cd web1
+
+
+7.after clone the repositories add file,modified, or any other action here modified the login page
+8. after modified enter>>>> git add <file path><exlogin.html>
+PS C:\Users\Student\Desktop\login\web1> git add login.html
+
+PS C:\Users\Student\Desktop\login\web1> git commit -m "modified login page"
+
+#[main 1e06f2c] modified login page
+ #1 file changed, 15 insertions(+)
+PS C:\Users\Student\Desktop\login\web1> git push origin main
+#Enumerating objects: 5, done.
+#Counting objects: 100% (5/5), done.
+#Delta compression using up to 12 threads
+#Compressing objects: 100% (2/2), done.
+#Writing objects: 100% (3/3), 516 bytes | 516.00 KiB/s, done.
+#Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+#To https://github.com/git-sktch/web1.git
+   c552006..1e06f2c  main -> main
