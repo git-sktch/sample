@@ -1,3 +1,6 @@
+1.open git
+2.create repositoeies
+3.create file
 terminal
 PS C:\Users\Student> git config --global user.name "git-sktch"
 PS C:\Users\Student> git config --global user.email "sangeethapalanisamy2005@gmail.com"
